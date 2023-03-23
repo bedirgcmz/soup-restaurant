@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Pacaci Usta</title>
+  </head>
+  <body class="selector-for-some-widget">
+    <h1 class="mb-5 text-center bg-primary p-3 text-light">Number of Legs That Can Be Made Soup</h1>
+    <div class="container d-flex justify-content-between">
+      <div class="w-100">
+        <p class="text-center bg-info p-3 h6 rounded">
+          Add or remove new animals from the farm with the side buttons
+        </p>
+        <div class="d-flex justify-content-between">
+          <div class="d-flex flex-column mr-3">
+            <button id="sheep-up" type="button" class="mb-2 btn btn-primary d-flex justify-content-between align-items-center">
+              <i class="fas fa-sort-amount-up"></i><span>SHEEP</span>
+            </button>
+            <button id="cow-up" type="button" class="mb-2 btn btn-secondary d-flex justify-content-between align-items-center">
+              <i class="fas fa-sort-amount-up"></i><span>COW</span>
+            </button>
+            <button id="pig-up" type="button" class="mb-2 btn btn-danger d-flex justify-content-between align-items-center">
+              <i class="fas fa-sort-amount-up"></i><span>PIG</span>
+            </button>
+            <button id="chicken-up" type="button" class="mb-2 btn btn-success d-flex justify-content-between align-items-center">
+              <i class="fas fa-sort-amount-up"></i><span>CHICKEN</span>
+            </button>
+          </div>
+          <p
+          id="paraf"
+          class="text-center rounded bg-warning mr-3 p-3 h5 d-flex justify-content-center flex-column"
+          ></p>
+          <div class="d-flex flex-column">
+            <button id="sheep-down" type="button" class="mb-2 btn btn-primary d-flex justify-content-between align-items-center">
+              <span>SHEEP</span><i class="fas fa-sort-amount-down"></i>
+            </button>
+            <button id="cow-down" type="button" class="mb-2 btn btn-secondary d-flex justify-content-between align-items-center">
+            </i><span>COW</span><i class="fas fa-sort-amount-down"></i>
+            </button>
+            <button id="pig-down" type="button" class="mb-2 btn btn-danger d-flex justify-content-between align-items-center">
+              <span>PIG</span><i class="fas fa-sort-amount-down"></i>
+            </button>
+            <button id="chicken-down" type="button" class="mb-2 btn btn-success d-flex justify-content-between align-items-center">
+              <span>CHICKEN</span><i class="fas fa-sort-amount-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="container p-4">
+      <p class="text-center p-2 h5">Current number of animals on the farm</p>
+      <div class="d-flex justify-content-around row">
+        <button type="button" class="mr-3 btn btn-primary col">
+          <i class="mr-2 fas fa-paw"></i>SHEEP <span id="sheep-number"></span>
+        </button>
+        <button type="button" class="mr-3 btn btn-secondary col">
+          <i class="mr-2 fas fa-paw"></i>COW <span id="cow-number"></span>
+        </button>
+        <button type="button" class="mr-3 btn btn-danger col">
+          <i class="mr-2 fas fa-paw"></i>PIG <span id="pig-number"></span>
+        </button>
+        <button type="button" class="btn btn-success col">
+          <i class="mr-2 fas fa-paw"></i>CHICKEN <span id="chicken-number"></span>
+        </button>
+      </div>
+    </div>
+    <div id="bir"></div>
+    <div class="iki"></div>
+    <div id="uc"></div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+    
+  </body>
+</html>
